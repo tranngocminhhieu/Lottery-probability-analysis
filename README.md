@@ -1,5 +1,5 @@
 # Lottery Probability Analysis for Responsible Gambling
-![image.png](image.png)
+![image.png](https://github.com/tranngocminhhieu/lottery-probability-analysis/raw/main/image.png)
 ## Introduction
 
 A renowned medical institute focused on preventing and treating gambling addiction is developing a mobile application to assist lottery players in making informed decisions about their chances of winning. While their in-house engineering team is responsible for app development, our task is to design and implement the probability calculation engine that powers the app's insights.
