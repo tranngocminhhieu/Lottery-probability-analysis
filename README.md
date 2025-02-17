@@ -6,7 +6,7 @@
 
 A renowned medical institute focused on preventing and treating gambling addiction is developing a mobile application to assist lottery players in making informed decisions about their chances of winning. While their in-house engineering team is responsible for app development, our task is to design and implement the probability calculation engine that powers the app's insights.
 
-For the initial release, our focus is on the 6/49 lottery. We will build core functions that allow users to answer key probability-related questions, including:
+For the initial release, our focus is on the [6/49 lottery](https://en.wikipedia.org/wiki/Lotto_6/49). We will build core functions that allow users to answer key probability-related questions, including:
 
 What are the odds of winning the jackpot with a single ticket?
 
@@ -28,7 +28,7 @@ To help players understand their odds, we calculate the probability of winning w
 
 ## Historical Data Analysis for Canada 6/49 Lottery
 
-To provide additional insights, we analyze historical data from the Canada 6/49 lottery, available on Kaggle. The dataset contains records of 3,665 drawings from 1982 to 2018. Each draw has six winning numbers recorded, allowing us to examine patterns and occurrences of specific number combinations.
+To provide additional insights, we analyze historical data from the Canada 6/49 lottery, available on [Kaggle](https://www.kaggle.com/datascienceai/lottery-dataset). The dataset contains records of 3,665 drawings from 1982 to 2018. Each draw has six winning numbers recorded, allowing us to examine patterns and occurrences of specific number combinations.
 
 ## Checking Historical Occurrences of a Ticket
 
