@@ -57,7 +57,6 @@ In most 6/49 lotteries, players can win smaller prizes by matching two, three, f
 - Probability of winning a prize with 3 matching numbers: 1.7650403867%
 - Probability of winning a prize with 4 matching numbers: 0.0968619724%
 - Probability of winning a prize with 5 matching numbers: 0.0018449900%
-- Probability of winning a prize with 6 matching numbers: 0.0000071511%
 
 Additionally, we calculate the probability of having at least a certain number of winning numbers, which provides further insight into potential winnings.
 
@@ -65,7 +64,6 @@ Additionally, we calculate the probability of having at least a certain number o
 - Probability of winning a prize with at least 3 matching numbers: 1.8637545002%
 - Probability of winning a prize with at least 4 matching numbers: 0.0987141135%
 - Probability of winning a prize with at least 5 matching numbers: 0.0018521411%
-- Probability of winning a prize with at least 6 matching numbers: 0.0000071511%
 
 
 ## Conclusion
