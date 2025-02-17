@@ -16,9 +16,11 @@ What is the likelihood of matching a specific number of winning numbers (e.g., t
 
 ## Core Probability Concepts
 
-To determine lottery odds, we rely on two key mathematical functions: **factorial** and **combination**. The factorial function calculates the product of all positive integers up to a given number, while the combination function computes the number of ways to choose a subset of elements from a larger set.
+To determine lottery odds, we rely on two key mathematical functions: **factorial** and **combination**.
+- The factorial function calculates the product of all positive integers up to a given number.
+- While the combination function computes the number of ways to choose a subset of elements from a larger set. For example, number of possible outcomes of Canada 6/49 Lottery is **13,983,816**.
 
-Using these functions, we can determine the total number of possible lottery outcomes and assess the probability of any given ticket winning. For example, number of possible outcomes of Canada 6/49 Lottery is **13,983,816**.
+Using these functions, we can determine the total number of possible lottery outcomes and assess the probability of any given ticket winning.
 
 ## Winning Probability for a Single Ticket
 
