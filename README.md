@@ -6,7 +6,7 @@
 
 A renowned medical institute focused on preventing and treating gambling addiction is developing a mobile application to assist lottery players in making informed decisions about their chances of winning. While their in-house engineering team is responsible for app development, our task is to design and implement the probability calculation engine that powers the app's insights.
 
-For the initial release, our focus is on the [6/49 lottery](https://en.wikipedia.org/wiki/Lotto_6/49). We will build core functions that allow users to answer key probability-related questions, including:
+For the initial release, our focus is on the [6/49 lottery](https://en.wikipedia.org/wiki/Lotto_6/49). I will build core functions that allow users to answer key probability-related questions, including:
 
 What are the odds of winning the jackpot with a single ticket?
 
@@ -16,21 +16,21 @@ What is the likelihood of matching a specific number of winning numbers (e.g., t
 
 ## Core Probability Concepts
 
-To determine lottery odds, we rely on two key mathematical functions: **factorial** and **combination**.
+To determine lottery odds, I rely on two key mathematical functions: **factorial** and **combination**.
 - The factorial function calculates the product of all positive integers up to a given number.
 - While the combination function computes the number of ways to choose a subset of elements from a larger set. For example, number of possible outcomes of Canada 6/49 Lottery is **13,983,816**.
 
-Using these functions, we can determine the total number of possible lottery outcomes and assess the probability of any given ticket winning.
+Using these functions, I can determine the total number of possible lottery outcomes and assess the probability of any given ticket winning.
 
 ## Winning Probability for a Single Ticket
 
 In the 6/49 lottery, six numbers are randomly drawn from a set of 49. A player wins the jackpot only if all six numbers on their ticket match the drawn numbers exactly. Even a single number mismatch results in a loss.
 
-To help players understand their odds, we calculate the probability of winning with a single ticket and present the results in a user-friendly format. The probability of winning the jackpot is extremely low, at approximately **0.0000071511%**. This means a player would need to buy nearly 7 million tickets to have a 50% chance of winning.
+To help players understand their odds, I calculate the probability of winning with a single ticket and present the results in a user-friendly format. The probability of winning the jackpot is extremely low, at approximately **0.0000071511%**. This means a player would need to buy nearly 7 million tickets to have a 50% chance of winning.
 
 ## Historical Data Analysis for Canada 6/49 Lottery
 
-To provide additional insights, we analyze historical data from the Canada 6/49 lottery, available on [Kaggle](https://www.kaggle.com/datascienceai/lottery-dataset). The dataset contains records of 3,665 drawings from 1982 to 2018. Each draw has six winning numbers recorded, allowing us to examine patterns and occurrences of specific number combinations.
+To provide additional insights, I analyze historical data from the Canada 6/49 lottery, available on [Kaggle](https://www.kaggle.com/datascienceai/lottery-dataset). The dataset contains records of 3,665 drawings from 1982 to 2018. Each draw has six winning numbers recorded, allowing us to examine patterns and occurrences of specific number combinations.
 
 ## Checking Historical Occurrences of a Ticket
 
@@ -38,7 +38,7 @@ One of the key features of our analysis is allowing users to check how many time
 
 ## Multi-Ticket Probability
 
-Many lottery players buy multiple tickets to increase their odds. To help them assess the impact, we calculate the probability of winning based on the number of tickets purchased. For example:
+Many lottery players buy multiple tickets to increase their odds. To help them assess the impact, I calculate the probability of winning based on the number of tickets purchased. For example:
 
 - Winning probability with 1 ticket: 0.0000%
 - Winning probability with 10 tickets: 0.0001%
@@ -58,7 +58,7 @@ In most 6/49 lotteries, players can win smaller prizes by matching two, three, f
 - Probability of winning a prize with 4 matching numbers: 0.0968619724%
 - Probability of winning a prize with 5 matching numbers: 0.0018449900%
 
-Additionally, we calculate the probability of having at least a certain number of winning numbers, which provides further insight into potential winnings.
+Additionally, I calculate the probability of having at least a certain number of winning numbers, which provides further insight into potential winnings.
 
 - Probability of winning a prize with at least 2 matching numbers: 15.1015574004%
 - Probability of winning a prize with at least 3 matching numbers: 1.8637545002%
